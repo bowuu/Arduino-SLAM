@@ -8,14 +8,22 @@ Learn how to use the robot hardware
 Learn how to implement a software library and use it to move the robot along different paths
 
 ## Distance Sensor
+How to use the sensors in a correct manner
 
 ## Proportional Control
+Perform close loop control using distance sensors and robot motor actuators
 
 ## Wall Following
+Make the robot move around a wall while keeping a distance of 5 inches from the wall to the side
 
-## SLAM
+## Line Detection
+Implement an algorithm to detect colored lines in the floor
 
-## Path Planning
+## Maze navigation
+Implement an algorithm to navigate within a maze
+
+## Localization and Path Planning
+Implement an algorithm to find a path from a start location to the goal
 
 ## Come on and SLAM, and welcome to the jam
 
