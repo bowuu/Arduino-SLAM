@@ -1,17 +1,21 @@
 # Arduino SLAM
 Movement, edge detection, SLAM, and path planning
 
-## (1) “Robot Basics” where you will learn how to use the robot
-hardware
+## Robot Basics
+Learn how to use the robot hardware
 
+## Kinematics
+Learn how to implement a software library and use it to move the robot along different paths
 
+## Distance Sensor
 
-## (2) “Kinematics” where you will learn how to implement a software library and
-use it to move the robot along different paths.
+## Proportional Control
 
+## Wall Following
 
+## SLAM
 
-
+## Path Planning
 
 ## Come on and SLAM, and welcome to the jam
 
