@@ -1,0 +1,16 @@
+Sensor raw data range is from 0 - 1023 from 0V - 5V
+204.6 per 1 volt
+
+**Remember to cast values when multiplying**
+
+Voltage range for Short Distance Sensor is 0.4V - 2.8V 
+Value ranges from 81.84 - 572.88 (actual will be 81 - 572 as output values are ints)
+Distance ranges from 4  30cm (1.575-11.811 inches)
+
+Voltage range for Long Distance Sensor is  0.4V - 2.6V 
+Value ranges from 81.84 - 531.96 (actual will be 81 - 531 as output values are ints)
+Distance ranges from 20 - 150cm (7.874 - 59.0551 inches)
+
+Now use the datasheet graphs to map from voltage to distance in 1 inch increments
+
+It takes about 100 microseconds (0.0001 s) to read an analog input, so the maximum reading rate is about 10,000 times a second.

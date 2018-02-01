@@ -1,0 +1,10 @@
+Use TimeInterrupts to readcolor
+Use TotalTest3 Chooser
+Detecting line = changing the cell 
+Make sure display output is correct. Can lose lots of points there
+
+For plath planning, need an option for path planning and mapping
+So do mapping first, returns to main menu, then do path planning
+add a way to preload a map for path planning
+
+To get the extra credit, have to be the 5 fastest robots, and cannot preload the map

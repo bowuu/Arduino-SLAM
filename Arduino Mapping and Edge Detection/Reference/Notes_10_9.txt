@@ -1,0 +1,19 @@
+Proportional Control and Wall Following
+error = d - t
+d = distance to wall
+t = 5 inch
+setSpeedIPS(constant * error, constant * error)
+Robot should always move back to 5 inches. Don't use interval (4.5 < d < 5.5)
+
+saturation function caps the max IPS speed (say IPS max is 6 inches/s, so make all values above that 6in/s)
+
+Can use any algorithm to do wall following
+v = f(front sensor)
+w = f(side sensor)
+
+Algorithm basics
+1. Use right and front short sensors
+4. while wallDistance(), if front <200 readings (greater than 5 inches from wall) the bot should keep moving straight.
+5. else if front s>200 readings (less than 5 inches from wall) it should then turn left.
+2. while bot runs wallDistance(), keep right short sensor polling. 
+3. Keep bot 5 inches away from wall at all times (Interval around 190-210?). (May need smoothing when bot reaches corners)

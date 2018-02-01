@@ -1,0 +1,17 @@
+ConsoleHelloWorld -> prints hellos world to arduino's serial console
+
+LCDHelloWorld -> prints hello world on robot LCD, also shows how to read the LCD's buttons
+
+FrentSensorRaw -> shows how to get raw measurements from distance sensors.
+
+MotorSetup -> shows how to send commands to the servos
+
+TimeSample and TimeSample2 -> shows to ways to meassure time
+
+IOInterruptSample -> uses library PinChangeInt to attach an interrupt rutine
+
+TimeInterruptSample -> shows how to use time interrupts
+
+TotalTest3 -> Program for debugging the different robot components.
+
+
