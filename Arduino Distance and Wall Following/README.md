@@ -1,2 +1,2 @@
-# Arduino_Bot_Lab2
+# Arduino Distance and Wall Following
 Mapping and Edge Detection
